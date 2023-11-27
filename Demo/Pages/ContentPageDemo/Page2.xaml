@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo.Pages.ContentPageDemo.Page2"
+             Title="Page2">
+    <VerticalStackLayout>
+        <Label
+            Text="Pagina 2"
+            FontSize="50"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            x:Name="btnRegresarPagina1"
+            Clicked="btnRegresarPagina1_Clicked"
+            Text="Ir a la pagina 1"
+            FontSize="20"
+            Margin="30"/>
+    </VerticalStackLayout>
+</ContentPage>
